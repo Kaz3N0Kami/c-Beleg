@@ -1,0 +1,22 @@
+Schreiben Sie ein objektorientiertes Programm in C++ zur Verwaltung verliehener Medien (Bücher, Videos(DVDs,...), CDs (wenigstens zwei Medienarten))
+
+Erarbeiten Sie dazu die Klassen:
+    -Medium (Basisklasse mit ggf. virtuellen Funktionen)
+    -Book,CD,DVD,BlueRay ....(wenigstens zwei)
+    -Person
+    -Liste, String (ausser bei Verwendung von Qt)
+
+Jede Klasse soll in einem separaten Modul implementiert werden (Header- und C++-File)
+
+Funktionsumfang:
+    -Verwaltung der Personen (erfassen, anzeigen, auflisten, löschen ...)
+    -Verwaltung der Medien(s.o.)
+    -Ausleihe, Rückgabe
+    -Dateiarbeit(Laden und Speichern von Datenbeständen)
+
+Hinweise zur Anfertigung:
+Auf hinreichende Kommentierung ist zu achten, so dass bei der Belegvorführung der Quelltext auch wieder verstanden wird.
+Jeder Quelltext enthalte den Namen, die Matrikelnummer und die Studiengruppe des Autors.
+Für die Note 1 muss das Programm termningerecht abgegeben werden, und über eine graphische Benutzeroberfläche verfügen. Hierfür steht vorzugsweise Qt oder wxwidgets zur Verfügung. In jedem Fall müssen die Programme auf den Rechnern in den Laboren der Fakultät vorgeführt und übersetzt werden können.
+Wird das Programm mit wxwidgets oder Qt, Vorlesung ausgeführt (Toolkits zur Programmierung portabler Oberflächen), so entfällt die Programmierung der String- und Listklassen(Template), es werden dann die der betreffenden Bibliotheken genutzt.
+Zur Abgabe gehören Testdaten und eine Readme, in der dokumentiert ist, welche Werkzeuge, incl. Versionsangabe zum build verwendet wurden sowie eine Beschreibung zum Programmbuild.
