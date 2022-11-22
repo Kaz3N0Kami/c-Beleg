@@ -1,7 +1,6 @@
-#include <stdlib.h>
+#include <iostream>
 
-int main()
-{
-  cout << "fuck you" << endl;
-  return 0;
+int main() {
+    std::cout << "Hello World!";
+    return 0;
 }
