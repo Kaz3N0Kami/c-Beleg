@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+1df3c60082949e4ed86c66a16892d3e2 Beleg2_de_DE.ts
+785e48e37c767d7a184c507a78a2f90a CMakeFiles/Beleg2_autogen
